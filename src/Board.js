@@ -4,7 +4,7 @@ import "./style.css";
 export default function Board() {
   return (
     <div className="board">
-      <div className="pantalla">
+      <div className="screen">
       
       </div>
       <div className="row">
