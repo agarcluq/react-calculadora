@@ -5,13 +5,32 @@ import Row from "/.Row"
 export default function Board() {
   return (
     <div className="board">
-      <div className="screen">
-      
+      <div className="screen"> 
       </div>
-      <Row/>
-      <Row/>
-      <Row/>
-      <Row/>
+      <div className="row">
+        <div className="col"></div>
+        <div className="col"></div>
+        <div className="col"></div>
+        <div className="col"></div>
+      </div>
+      <div className="row">
+        <div className="col"></div>
+        <div className="col"></div>
+        <div className="col"></div>
+        <div className="col"></div>
+      </div>
+      <div className="row">
+        <div className="col"></div>
+        <div className="col"></div>
+        <div className="col"></div>
+        <div className="col"></div>
+      </div>
+      <div className="row">
+        <div className="col"></div>
+        <div className="col"></div>
+        <div className="col"></div>
+        <div className="col"></div>
+      </div>
     </div>
   );
 }
