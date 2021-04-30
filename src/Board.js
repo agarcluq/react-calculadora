@@ -1,8 +1,11 @@
-import React from "react";
+import React, {useRef} from "react";
 import "./style.css";
+import Row from "./Row.js"
+
+export default function Board({number}) {
+const numbers =['uno','dos','tres']
 
 
-export default function Board() {
   return (
     <div className="board">
       <div className="screen"> 

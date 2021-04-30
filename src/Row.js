@@ -1,13 +1,13 @@
 import React from "react";
 import "./style.css";
-
-export default function Row() {
+import Col from "./Col.js"
+export default function Row({number}) {
   return (
       <div className="row">
-        <div className="col"></div>
-        <div className="col"></div>
-        <div className="col"></div>
-        <div className="col"></div>
+        <Col number={number}/>
+        <Col number={number}/>
+        <Col number={number}/>
+        <Col number={number}/>
       </div>
   );
 }
